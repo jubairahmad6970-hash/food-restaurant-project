@@ -73,3 +73,48 @@
     text-align: center;
     /* margin-top: 10px; */
 }
+#card-box{
+    width: 884px;
+    margin: 100px auto;
+}
+#card-box .title{
+     color: rgb(16, 16, 16);
+    font-family: work sans;
+    font-size: 28px;
+    font-weight: 700;
+    line: height 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.subtitle{
+     color:rgb(16, 16, 16); 
+    font-family: work sans;
+    font-size: 14px;
+    font-weight: 500;
+    line: height 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+.card-container{
+    margin-top:30px ;  
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.img-box{
+    width:250px;
+    
+}
+.card.img-box img{
+    width: 100%;
+}
+.card.shop{
+    background-color: aqua;
+}
